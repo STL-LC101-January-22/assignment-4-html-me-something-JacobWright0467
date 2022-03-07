@@ -15,8 +15,6 @@ body {
     display: block;
 }
 
-/* nothing from here forward works in the .css file, it has to be put in the styles 
-tag in the HTML file...  Cannot figure out */
 .par {
     border-style: solid;
     border: 10px solid black
