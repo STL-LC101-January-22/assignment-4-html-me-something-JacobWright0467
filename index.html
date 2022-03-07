@@ -1,16 +1,35 @@
 <!DOCTYPE html>
 <html>
    <head>
+      <link rel="stylesheet" href="./styles.css">
+      <style>
+         .par {
+            border-style: solid;
+            border: 10px solid black
+         }
+         #title {
+            color: blue;
+         }
+         #mainHeading{
+            color: red;
+         }
+         .funParagraph {
+            color: green;
+            border-style: solid;
+            border: 10px solid black
+         }
+      </style>   
    </head>
    <body>
       <!-- Write your HTML in this file! -->
-      <h1>Jacob Wright's Career Journey</h1>
+      <h1 id="mainHeading">Jacob Wright's Career Journey</h1>
       <hr>
       <article>
          <header>
             <main>
-            <h2>The Early Days</h2>
-            <p>
+            <h2 id="title">The Early Days</h2>
+            <div class="funParagraph">
+            <p id="testP">
                I don't want to bore anyone right off the bat, so we'll quickly run through the early days of my professional life.  
                It may seem unrelated, but part of it does in fact impact where I am today.  
                When I was 16-17, during the summer between my junior and senior year of high school, I worked at a nice little marina restaurant.  The Leaky Bucket.
@@ -22,7 +41,9 @@
                I did like the job.  It got me through a couple years of community college while I lived with my parents and took classes in the evenings.  
                But the time eventually came to move out of my parents home and set off on my own.  So I quit and moved an hour and half away to Edwardsville.
             </p>
-            <h2>The Start of a Fruitful Relationship &amp; Journey That Followed</h2>
+            </div>
+            <h2 id="title">The Start of a Fruitful Relationship &amp; Journey That Followed</h2>
+            <div class="par">
             <p>
                Now that I had moved to a new location, I needed a job of course.  
                With my CNA license, it was easy.  Landed an interview at the first place I walked in to fill out an application.
@@ -40,7 +61,9 @@
                It was a fun experience and I feel like I grew a lot from it.  When the acquisitions were wrapping up, was when I had found out about the LaunchCode program and started to apply.  Thankfully, I got in to it!  
                But enrolling in LaunchCode wasn't the only change that was coming in my life.  
             </p>
-            <h2>Termination &amp; Today</h2>
+            </div>
+            <h2 id="title">Termination &amp; Today</h2>
+            <div class="par">
             <p>
                One day came where I was pulled into an office and found out that a large partner wasn't renewing their contract with Cedarhurst.  So of our 84 buildings we were losing 21.  This particular ownership group is one we fought with a lot, so the writing had been on the wall.
                Unfortunately, with that level of loss from the company's bottom line there had to be some layoffs.  My position was one that got folded.  So I had lost that job.  The COO of the company, who I was very friendly with, sat in on that conversation.  
@@ -48,6 +71,7 @@
                Of the options offered, I chose an Executive Director position in charge of the Jacksonville IL location.  So here we are today!  I am enrolled in LaunchCode with plans to pursue my love of tech in the future, while simultaniously responsible for a staff of around 40 people in a community with 80 residents. 
                Pictured below is myself in Cedarhust of Jacksonville's foyer with my management team.  It's a busy life, but i'm quite happy with my place in the world.   
             </p>
+            </div>
             </main>
          </header>
       </article>
